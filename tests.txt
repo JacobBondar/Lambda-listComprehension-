@@ -1,0 +1,197 @@
+test #1
+	user input:
+		ex1
+		Enter value number #1: @
+		Enter value number #1: %
+		Enter value number #1: qwe
+		Enter value number #1: 35
+		Enter value number #2: 543564
+		Enter value number #3: 754
+		Enter value number #4: 3
+		Enter value number #5: 2
+		Enter value number #6: 5235
+		Enter value number #7: 432
+		Enter value number #8: qw
+		Enter value number #8: 5325
+		Enter value number #9: 643
+		Enter value number #10: 75647
+		Enter value number #11: 32!
+		Enter value number #11: 643
+		Enter value number #12: 32
+		Enter value number #13: 5
+		Enter value number #14: 5
+		Enter value number #15: 2
+		Enter value number #16: 5325
+		Enter value number #17: -214
+		Enter value number #18: -1
+		Enter value number #19: 0
+		Enter value number #20: -999
+		Enter value number #21: 
+
+	Output:
+		The input was: [35, 543564, 754, 3, 2, 5235, 432, 5325, 643, 75647, 643, 32, 5, 5, 2, 5325, -214, -1, 0, -999]
+
+		The sum is: 636438
+		The min is: -999
+		The max is: 543564
+		The avg_val is: 31821.900
+
+		Help on function receive_values in module __main__:
+
+		receive_values(*args)
+		    The function receives numbers from the user and returns:
+		    - The sum of the numbers.
+		    - The smallest number.
+		    - The largest number.
+		    - The average of the numbers.
+
+test #2
+	user input:
+		ex1
+
+	Output:
+		Enter value number #1: 
+		The input was: []
+
+		The sum is: 0
+		The min is: 0
+		The max is: 0
+		The avg_val is: 0.000
+
+		Help on function receive_values in module __main__:
+
+		receive_values(*args)
+		    The function receives numbers from the user and returns:
+		    - The sum of the numbers.
+		    - The smallest number.
+		    - The largest number.
+		    - The average of the numbers.
+
+test #3
+	user input:
+		ex1
+		Enter value number #1: -754
+		Enter value number #2: -42
+		Enter value number #3: -4141
+		Enter value number #4: 532
+		Enter value number #5: -52
+		Enter value number #6: 0
+		Enter value number #7: 1
+		Enter value number #8: 2
+		Enter value number #9: 3
+		Enter value number #10: 1
+		Enter value number #11: 2
+		Enter value number #12: 3
+		Enter value number #13: 4
+		Enter value number #14: 1
+		Enter value number #15: 2
+		Enter value number #16: 3
+		Enter value number #17: 4
+		Enter value number #18: 5
+		Enter value number #19: 11
+		Enter value number #20: 111
+		Enter value number #21: 
+
+	Output:
+		The input was: [-754, -42, -4141, 532, -52, 0, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5, 11, 111]
+
+		The sum is: -4304
+		The min is: -4141
+		The max is: 532
+		The avg_val is: -215.200
+
+		Help on function receive_values in module __main__:
+
+		receive_values(*args)
+		    The function receives numbers from the user and returns:
+		    - The sum of the numbers.
+		    - The smallest number.
+		    - The largest number.
+		    - The average of the numbers.
+
+test #4
+	user input:
+		ex2
+		Please enter a sentence: hello My name Is JACOB and this is my project !
+
+	Output:
+		The two methods gave the same results!
+		The sentence input is: hello My name Is JACOB and this is my project !
+
+		The length words from list comprehension is:
+		[5, 2, 4, 2, 5, 3, 4, 2, 2, 7]
+		The length words from lambda + map / filter is:
+		[5, 2, 4, 2, 5, 3, 4, 2, 2, 7]
+	
+		The counter letters from list comprehension is:
+		{'a': 2, 'y': 2, 'J': 1, 'i': 2, 'A': 1, 'j': 1, 'h': 2, 'o': 2, 'I': 1, 's': 3, 'd': 1, 'c': 1, 't': 2, 'n': 2, 'l': 2, 'm': 2, 'C': 1, 'r': 1, 'M': 1, 'p': 1, 'e': 3, 'O': 1, 'B': 1}
+		The counter letters from lambda + map / filter is:
+		{'a': 2, 'y': 2, 'J': 1, 'i': 2, 'A': 1, 'j': 1, 'h': 2, 'o': 2, 'I': 1, 's': 3, 'd': 1, 'c': 1, 't': 2, 'n': 2, 'l': 2, 'm': 2, 'C': 1, 'r': 1, 'M': 1, 'p': 1, 'e': 3, 'O': 1, 'B': 1}
+
+		The tuple vowels from list comprehension is:
+		[(2, 3), (0, 2), (2, 2), (1, 1), (2, 3), (1, 2), (1, 3), (1, 1), (0, 2), (2, 5)]
+		The tuple vowels from lambda + map / filter is:
+		[(2, 3), (0, 2), (2, 2), (1, 1), (2, 3), (1, 2), (1, 3), (1, 1), (0, 2), (2, 5)]
+
+		The words above 4 len from list comprehension is:
+		['hello', 'name', 'JACOB', 'this', 'project']
+		The words above 4 len from lambda + map / filter is:
+		['hello', 'name', 'JACOB', 'this', 'project']
+
+test #5
+	user input:
+		ex2
+		Please enter a sentence: #$% this is #%aqw a corrupted T&# TEXT 13
+
+	Output:
+		The two methods gave the same results!
+		The sentence input is: #$% this is #%aqw a corrupted T&# TEXT 13
+
+		The length words from list comprehension is:
+		[4, 2, 1, 9, 4]
+		The length words from lambda + map / filter is:
+		[4, 2, 1, 9, 4]
+		
+		The counter letters from list comprehension is:
+		{'r': 2, 'c': 1, 'X': 1, 't': 2, 'o': 1, 'p': 1, 'E': 1, 'h': 1, 's': 2, 'u': 1, 'd': 1, 'w': 1, 'e': 1, 'i': 2, 'q': 1, 'T': 3, 'a': 2}
+		The counter letters from lambda + map / filter is:
+		{'r': 2, 's': 2, 'q': 1, 'T': 3, 'p': 1, 'E': 1, 'h': 1, 'u': 1, 'd': 1, 'w': 1, 'a': 2, 'e': 1, 'i': 2, 'X': 1, 'c': 1, 't': 2, 'o': 1}
+		
+		The tuple vowels from list comprehension is:
+		[(1, 3), (1, 1), (1, 0), (3, 6), (1, 3)]
+		The tuple vowels from lambda + map / filter is:
+		[(1, 3), (1, 1), (1, 0), (3, 6), (1, 3)]
+		
+		The words above 4 len from list comprehension is:
+		['this', 'corrupted', 'TEXT']
+		The words above 4 len from lambda + map / filter is:
+		['this', 'corrupted', 'TEXT']
+
+test #6
+	user input:
+		ex2
+		Please enter a sentence: Th3 quick! br@wn fox jumps_ov3r the lazy dog, barking loudly 1234 hu?h? nice day to#code
+
+	Output:
+		The two methods gave the same results!
+		The sentence input is: Th3 quick! br@wn fox jumps_ov3r the lazy dog, barking loudly 1234 hu?h? nice day to#code
+	
+		The length words from list comprehension is:
+		[3, 3, 4, 7, 6, 4, 3]
+		The length words from lambda + map / filter is:
+		[3, 3, 4, 7, 6, 4, 3]
+
+		The counter letters from list comprehension is:
+		{'r': 3, 's': 1, 'v': 1, 'q': 1, 'T': 1, 'z': 1, 'j': 1, 'p': 1, 'h': 4, 'u': 4, 'd': 4, 'w': 1, 'g': 2, 'a': 3, 'n': 3, 'm': 1, 'k': 2, 'y': 3, 'l': 3, 'e': 3, 'i': 3, 'b': 2, 'c': 3, 't': 2, 'o': 	6, 'f': 1, 'x': 1}
+		The counter letters from lambda + map / filter is:
+		{'r': 3, 's': 1, 'v': 1, 'q': 1, 'T': 1, 'z': 1, 'j': 1, 'p': 1, 'h': 4, 'u': 4, 'd': 4, 'w': 1, 'g': 2, 'a': 3, 'n': 3, 'm': 1, 'k': 2, 'y': 3, 'l': 3, 'e': 3, 'i': 3, 'b': 2, 'c': 3, 't': 2, 'o': 	6, 'f': 1, 'x': 1}
+		
+		The tuple vowels from list comprehension is:
+		[(1, 2), (1, 2), (1, 3), (2, 5), (2, 4), (2, 2), (1, 2)]
+		The tuple vowels from lambda + map / filter is:
+		[(1, 2), (1, 2), (1, 3), (2, 5), (2, 4), (2, 2), (1, 2)]
+	
+		The words above 4 len from list comprehension is:
+		['lazy', 'barking', 'loudly', 'nice']
+		The words above 4 len from lambda + map / filter is:
+		['lazy', 'barking', 'loudly', 'nice']
